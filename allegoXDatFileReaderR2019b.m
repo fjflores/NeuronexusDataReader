@@ -52,6 +52,7 @@ function reader = allegoXDatFileReader()
     reader.getAllegoXDatTimeRange=@getAllegoXDatTimeRange;
     reader.getAsKilosort2Matrix=@getAsKilosort2Matrix;
     reader.convertToKilosort2Bin=@convertToKilosort2Bin;
+    reader.readMeta=@readMeta;
 end
 
 function signalStruct = getAllegoXDatPriSigs(datasourceName, timerange) 
